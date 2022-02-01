@@ -7,8 +7,7 @@
     <title>Compasso - Intranet</title>
 
     <link rel="icon" type="image/png" href="./assets/iconsite.png">
-    <link rel="stylesheet" href="./styles/login-page.css">
-    <script src="https://kit.fontawesome.com/565c28a20e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
 
 </head>
 <body>
@@ -20,18 +19,23 @@
             </div>
             <div id="loginDetails">
                 <h2>Login</h2>
-                <div>
-                    <input type="text" id="userLogin" required placeholder="Usuário"><i class="fas fa-user"></i>
+                <div id="userImg1">
+                    <input type="text" id="userLogin" required placeholder="Usuário">
+                    <img src="./assets/usericon.png" id="userIcon" alt="userIcon">
                 </div>
-                <div>
-                    <input type="password" id="userPassword" required placeholder="Senha"><i class="fas fa-lock"></i>
+                <div id="userImg2"">
+                    <input type="password" id="userPassword" required placeholder="Senha">
+                    <img src="./assets/lockpad.png" alt="lockPad">
                 </div>
+            </div>
+            <div id="errorMsg">
+                <p>Ops, usuário ou senha inválidos. Tente novamente!</p>
             </div>
             <div id="btnLogin">
                 <button id="continueLogin">Continuar</button>
             </div>
         </section>
-        <section class="imagesMain">
+        <section class="imagesLogin">
             <div id="logoCompass"><img src="./assets/Logo-Compasso-Branco-hor 1.png" alt="Logo Compass"></div>
         </section> 
     </main>
