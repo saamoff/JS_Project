@@ -1,3 +1,5 @@
-import iconAnimation from './modules/iconAnimation.js'
+import login from './modules/login.js'
 
-iconAnimation()
+
+
+login()

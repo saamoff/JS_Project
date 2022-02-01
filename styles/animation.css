@@ -1,0 +1,11 @@
+.loginError{
+    border: solid 1px #E9B425;
+}
+
+.invisibility {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
