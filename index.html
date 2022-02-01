@@ -12,32 +12,35 @@
 </head>
 <body>
     <main>
-        <section class="loginMain">
+        <section id="loginMain">
             <div id="loginTitle">
                 <h2>Olá,</h2>
                 <p>Para continuar navegando de forma segura, efetue o login na rede.</p>
             </div>
             <div id="loginDetails">
                 <h2>Login</h2>
-                <div id="userImg1">
+                <div id="userImg1" clas="userImg1">
                     <input type="text" id="userLogin" required placeholder="Usuário">
                     <img src="./assets/usericon.png" id="userIcon" alt="userIcon">
                 </div>
-                <div id="userImg2"">
+                <div id="userImg2" class="userImg2">
                     <input type="password" id="userPassword" required placeholder="Senha">
                     <img src="./assets/lockpad.png" alt="lockPad">
                 </div>
             </div>
-            <div id="errorMsg">
+            <div id="errorMsg" class="invisibility">
                 <p>Ops, usuário ou senha inválidos. Tente novamente!</p>
             </div>
             <div id="btnLogin">
                 <button id="continueLogin">Continuar</button>
             </div>
         </section>
-        <section class="imagesLogin">
+        <section id="imagesLogin">
             <div id="logoCompass"><img src="./assets/Logo-Compasso-Branco-hor 1.png" alt="Logo Compass"></div>
-        </section> 
+        </section>
+        <section id="homeMain">
+
+        </section>
     </main>
     <script type="module" src="index.js"></script>
 </body>
