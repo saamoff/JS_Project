@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,38 +11,51 @@
     <link rel="stylesheet" href="./index.css">
 
 </head>
+
 <body>
     <main>
         <section id="loginMain">
-            <div id="loginTitle">
-                <h2>Olá,</h2>
-                <p>Para continuar navegando de forma segura, efetue o login na rede.</p>
-            </div>
-            <div id="loginDetails">
-                <h2>Login</h2>
-                <div id="userImg1" clas="userImg1">
-                    <input type="text" id="userLogin" required placeholder="Usuário">
-                    <img src="./assets/usericon.png" id="userIcon" alt="userIcon">
+            <div id="containerRight">
+                <div id="loginTitle">
+                    <h2>Olá,</h2>
+                    <p>Para continuar navegando de forma segura, efetue o login na rede.</p>
                 </div>
-                <div id="userImg2" class="userImg2">
-                    <input type="password" id="userPassword" required placeholder="Senha">
-                    <img src="./assets/lockpad.png" alt="lockPad">
+                <div id="loginDetails">
+                    <h2>Login</h2>
+                    <div id="userImg1">
+                        <input type="text" id="userLogin" required placeholder="Usuário">
+                        <img src="./assets/usericon.png" id="userIcon" alt="userIcon">
+                    </div>
+                    <div id="userImg2" class="userImg2">
+                        <input type="password" id="userPassword" required placeholder="Senha">
+                        <img src="./assets/lockpad.png" alt="lockPad">
+                    </div>
+                </div>
+                <div id="errorMsg" class="invisibility">
+                    <p>Ops, usuário ou senha inválidos. Tente novamente!</p>
+                </div>
+                <div id="btnLogin">
+                    <button id="continueLogin">Continuar</button>
                 </div>
             </div>
-            <div id="errorMsg" class="invisibility">
-                <p>Ops, usuário ou senha inválidos. Tente novamente!</p>
+            <div id="containerLeft">
+                <div>
+                    <div id="logoCompass"><img src="./assets/Logo-Compasso-Branco-hor 1.png" alt="Logo Compass"></div>
+                </div>
             </div>
-            <div id="btnLogin">
-                <button id="continueLogin">Continuar</button>
-            </div>
-        </section>
-        <section id="imagesLogin">
-            <div id="logoCompass"><img src="./assets/Logo-Compasso-Branco-hor 1.png" alt="Logo Compass"></div>
         </section>
         <section id="homeMain">
+            <div id="headerHome">
+                <div id="logoHeader">
+                    <img src="./assets/LogoCompasso1.png" alt="Logo Compasso">
+                </div>
+                <div id>
 
+                </div>
+            </div>
         </section>
     </main>
     <script type="module" src="index.js"></script>
 </body>
+
 </html>
