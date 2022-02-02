@@ -1,161 +1,158 @@
-
 /* Body. */
 
 body {
-    overflow-y: hidden;
-    font-family: 'Poppins', sans-serif;
-}
-
-main {
-    display: flex;
-    justify-content: center;
+  overflow-y: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Titulo do Container. */
 
 #loginMain {
-    color: white;
-    width: 100%;
-    height: 100vh;
-    flex-grow: 1;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+  display: flex;
+}
+
+#containerRight {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  background: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
 }
 
 #loginTitle {
-    margin-top: 15%;
-    width: 40%;
+  margin-top: 15%;
+  width: 40%;
 }
 
 #loginTitle h2 {
-    font-size: 60px;
-    padding-bottom: 5%;
+  font-size: 60px;
+  padding-bottom: 5%;
 }
 
 #loginTitle p {
-    font-size: 16px;
-    padding-bottom: 40%;
+  font-size: 16px;
+  padding-bottom: 40%;
 }
 
 /* Container do Login. */
 
 #loginDetails {
-    width: 40%;
+  width: 40%;
 }
 
 #loginDetails h2 {
-    font-size: 30px;
-    padding-bottom: 9%;
+  font-size: 30px;
+  padding-bottom: 9%;
 }
 
 /* Inputs de Login */
 
 #loginDetails input {
-    width: 50%;
-    color: white;
-    background: transparent;
-    border: 0;
+  width: 50%;
+  color: white;
+  background: transparent;
+  border: 0;
 }
 
 #loginDetails input:focus {
-    outline-width: 0;
+  outline-width: 0;
 }
 
 #userImg1 {
-    width: 100%;
-    height: 60px;
-    background: #26292C;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 9%;
+  width: 100%;
+  height: 60px;
+  background: #26292c;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 9%;
 }
 
 #userImg2 {
-    width: 100%;
-    height: 60px;
-    background: #26292C;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 60px;
+  background: #26292c;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #userImg img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 #userLogin {
-    font-size: 16px;
-    margin: 0.9em 0.5em;
-    padding: 1.4em 6.5em 1.4em 1em;
+  font-size: 16px;
+  margin: 0.9em 0.5em;
+  padding: 1.4em 6.5em 1.4em 1em;
 }
 
 #userPassword {
-    font-size: 16px;
-    margin: 0.9em 0.5em;
-    padding: 1.4em 6.5em 1.4em 1em;
+  font-size: 16px;
+  margin: 0.9em 0.5em;
+  padding: 1.4em 6.5em 1.4em 1em;
 }
 
 /* Senha Incorreta */
 
 #errorMsg {
-    width: 40%;
-    margin-top: 4%;
-    text-align: center;
-    color: #E9B425;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 4%;
+  width: 40%;
+  margin-top: 4%;
+  text-align: center;
+  color: #e9b425;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4%;
 }
-
 
 /* Botao de Continuar */
 
 #btnLogin {
-    width: 40%;
+  width: 40%;
 }
 
 #btnLogin button {
-    font-size: 18px;
-    color: white;
-    border: none;
-    width: 100%;
-    height: 67px;
-    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
-    border-radius: 50px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 67px;
+  background: linear-gradient(90deg, #ff2d04 0%, #c13216 100%);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
 }
 
 #btnLogin button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* Imagens do fundo. */
 
-#imagesLogin {
-    width: 100%;
-    max-width: 50%;
-    height: 100vh;
+#containerLeft {
+  width: 100%;
+  max-width: 50%;
+  height: 100vh;
 
-    background-image: url('../assets/banner.png');
-    background-size: cover;
-    flex-grow: 1;
+  background-image: url('../assets/banner.png');
+  background-size: cover;
+  flex-grow: 1;
 }
 
 #logoCompass {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
 }
 
 #logoCompass img {
-    width: 40%;
+  width: 40%;
 }
