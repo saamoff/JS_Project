@@ -1,4 +1,5 @@
 import loginError from './loginError.js';
+import timerHome from './timerHome.js'
 
 export default function login() {
   const user = document.querySelector('#userLogin');
@@ -13,6 +14,7 @@ export default function login() {
       loginPage.style.display = 'none';
       homePage.style.display = 'flex';
       homeFooter.style.display = 'grid';
+      timerHome()
     } else {
       loginError();
     }

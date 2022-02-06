@@ -110,11 +110,11 @@
 
 #imgHome {
   display: flex;
-  width: 100%;
+  width: 60%;
 }
 
 #imgHome img {
-  max-width: 70%;
+  min-width: 500px;
 }
 
 #mainHome {
