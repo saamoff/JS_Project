@@ -8,5 +8,6 @@ export default function loginError() {
     user.classList.add('loginError')
     password.classList.add('loginError')
 
-    
+    user.value = ''
+    password.value = ''
 }

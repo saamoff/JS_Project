@@ -1,0 +1,240 @@
+@media(max-width:1280px){
+  /* Pagina de Login */
+  #loginMain{
+    display: flex;
+  }
+
+  #containerRight{
+    width: 50%;
+  }
+
+  #containerLeft{
+    width: 50%;
+  }
+
+  #loginTitle {
+    width: 50%;
+  }
+
+  #loginDetails {
+    width: 50%;
+  }
+
+  #btnLogin {
+    width: 50%;
+  }
+
+  /* Pagina Home */
+
+  #imgHome {
+    width: 40%;
+  }
+
+  #imgHome img {
+    min-width: 450px;
+  }
+
+  #missionHome {
+    width: 100%;
+    margin-top: 16%;
+  }
+
+  #missionHome h2 {
+    font-size: 45px;
+  }
+}
+
+@media(max-width:1024px){
+  /* Pagina de Login */
+  #loginMain{
+    display: flex;
+  }
+
+  #containerRight{
+    width: 100%;
+  }
+
+  #loginTitle {
+    width: 60%;
+  }
+
+  #loginTitle p {
+    padding-bottom: 20px;
+  }
+
+  #loginDetails {
+    width: 60%;
+  }
+
+  #btnLogin {
+    width: 60%;
+  }
+
+  /* Pagina Home */
+  
+  #homeContainerRight{
+    display: none;
+  }
+
+  #imgHome {
+    width: 50%;
+  }
+
+  #imgHome img {
+    min-width: 370px;
+  }
+
+  #footerHome{
+    width: 100%;
+    grid-template-columns: 30% 70% 0 0 0 0 0 0;
+    height: 100px;
+  }
+
+  #footerHome p{
+    display: none;
+  }
+
+  #footerHome h1{
+    display: none;
+  }
+
+  #container1 {
+    display: none;
+  }
+
+  #border {
+    display: none;
+  }
+
+  #timerFooter {
+    display: none;
+  }
+
+  #container2 {
+    display: none;
+  }
+
+  #continueNav{
+    grid-column: 2;
+    height: 100px;
+    font-size: 17px;
+  }
+
+  #logout{
+    grid-column: 1;
+    position: absolute;
+    font-size: 17px;
+    margin-top: 4%;
+    margin-left: 12%;
+  }
+}
+
+@media(max-width:414px){
+  /* Pagina de Login */
+  #loginMain {
+    display: block;
+  }
+
+  #containerRight{
+    width: 100%;
+  }
+
+  #loginTitle {
+    width: 80%;
+  }
+
+  #loginTitle h2 {
+    font-size: 60px;
+  }
+
+  #loginTitle p {
+    font-size: 23px;
+    margin-bottom: 20%;
+  }
+
+  #loginDetails {
+    width: 80%;
+  }
+
+  #loginDetails h2 {
+    font-size: 40px;
+  }
+
+  #containerLeft{
+    display: none;
+  }
+
+  #btnLogin {
+    width: 80%;
+  }
+
+  /* Pagina Home */
+
+  #homeContainerRight{
+    display: none;
+  }
+
+  #homeContainerLeft {
+    width: 100%;
+  }
+
+  #logoHeader {
+    width: 100%;
+  }
+
+  #logoHeader img{
+    width: 40%;
+    margin-top: 4%;
+    margin-left: 4%;
+  }
+
+  #imgHome {
+    width: 40%;
+  }
+
+  #imgHome img {
+    min-width: 400px;
+  }
+
+  #footerHome{
+    width: 100%;
+    grid-template-columns: 30% 70% 0 0 0 0 0 0;
+    height: 100px;
+  }
+
+  #footerHome p{
+    display: none;
+  }
+
+  #footerHome h1{
+    display: none;
+  }
+
+  #container1 {
+    display: none;
+  }
+
+  #border {
+    display: none;
+  }
+
+  #timerFooter {
+    display: none;
+  }
+
+  #container2 {
+    display: none;
+  }
+
+  #continueNav{
+    grid-column: 2;
+    height: 100px;
+    font-size: 17px;
+  }
+
+  #logout{
+    grid-column: 1;
+    margin-top: 10%;
+    margin-left: 7%;
+  }
+}
