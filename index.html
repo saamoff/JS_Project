@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compasso - Intranet</title>
-
     <link rel="icon" type="image/png" href="./assets/iconsite.png">
     <link rel="stylesheet" href="./index.css">
-
 </head>
-
-<body>
+<body onselectstart="return false">
     <main>
         <section id="loginMain">
             <div id="containerRight">
@@ -24,11 +20,11 @@
                     <h2>Login</h2>
                     <div id="userImg1">
                         <input type="text" id="userLogin" required placeholder="Usuário">
-                        <img src="./assets/usericon.png" id="userIcon" alt="userIcon">
+                        <img draggable="false" src="./assets/usericon.png" id="userIcon" alt="userIcon">
                     </div>
                     <div id="userImg2" class="userImg2">
                         <input type="password" id="userPassword" required placeholder="Senha">
-                        <img src="./assets/lockpad.png" alt="lockPad">
+                        <img draggable="false" src="./assets/lockpad.png" alt="lockPad">
                     </div>
                 </div>
                 <div id="errorMsg" class="invisibility">
@@ -40,17 +36,17 @@
             </div>
             <div id="containerLeft">
                 <div>
-                    <div id="logoCompass"><img src="./assets/Logo-Compasso-Branco-hor 1.png" alt="Logo Compass"></div>
+                    <div id="logoCompass"><img draggable="false" src="./assets/Logo-Compasso-Branco-hor1.png" alt="Logo Compass"></div>
                 </div>
             </div>
         </section>
         <section id="homeMain">
             <div id="homeContainerLeft">
                 <div id="logoHeader">
-                    <img src="./assets/LogoCompasso1.png" alt="Logo Compasso">
+                    <img draggable="false" src="./assets/LogoCompasso1.png" alt="Logo Compasso">
                 </div>
                 <div id="imgHome">
-                    <img src="./assets/bola-LogoCompasso1.png" alt="Bola UOL">
+                    <img draggable="false" src="./assets/bola-LogoCompasso1.png" alt="Bola UOL">
                 </div>
             </div>
             <div id="homeContainerRight">
@@ -62,7 +58,7 @@
                         <h1>Juiz de Fora</h1>  
                         <div id="iconTemp">
                             <div id="icon">
-                                <img src="./assets/icons2/sun.png" alt="sun">
+                                <img draggable="false" src="./assets/icons2/sun.png" alt="sun">
                             </div>
                             <h2>30</h2>
                             <p>°</p>
@@ -101,5 +97,4 @@
     </main>
     <script type="module" src="index.js"></script>
 </body>
-
 </html>
