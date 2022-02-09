@@ -3,6 +3,12 @@ import clock from './modules/clock.js'
 import logout from './modules/logout.js'
 import weather from './modules/weather.js'
 
+history.pushState(
+  null,
+  "Login Intranet",
+  "https://saamoff.github.io/JS_Project/login"
+);
+
 login()
 logout()
 weather()
