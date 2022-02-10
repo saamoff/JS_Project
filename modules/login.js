@@ -11,10 +11,11 @@ export default function login() {
 
   btnContinue.addEventListener('click', () => {
     if (user.value === 'admin' && password.value === 'admin') {
+      history.pushState(null, "Home - Intranet", "https://saamoff.github.io/JS_Project/home");
       loginPage.style.display = 'none';
       homePage.style.display = 'flex';
       homeFooter.style.display = 'grid';
-      timerHome()
+      timerHome();
     } else {
       loginError();
     }

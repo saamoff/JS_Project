@@ -5,7 +5,7 @@ import weather from './modules/weather.js'
 
 history.pushState(
   null,
-  "Login Intranet",
+  "Home Intranet",
   "https://saamoff.github.io/JS_Project/login"
 );
 
