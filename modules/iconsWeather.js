@@ -4,19 +4,19 @@ export default function iconsWeather(data){
   let addIcon = ''
 
   if(weather.includes('Sun')){
-    addIcon = './assets/icons2/sun.png'
+    addIcon = './assets/iconsWeather/sun.png'
 
   }else if(weather.includes('fog')){
-    addIcon = './assets/icons2/fog.png'
+    addIcon = './assets/iconsWeather/fog.png'
   
   }else if(weather.includes('Cloudy')){
-    addIcon = './assets/icons2/cloudy.png'
+    addIcon = './assets/iconsWeather/cloudy.png'
   
   }else if(weather.includes('rain')){
-    addIcon = './assets/icons2/rain.png'
+    addIcon = './assets/iconsWeather/rain.png'
   
   }else if(weather.includes('thunder')){
-    addIcon = './assets/icons2/thunder.png'
+    addIcon = './assets/iconsWeather/thunder.png'
   
   }
   return addIcon

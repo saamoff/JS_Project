@@ -5,9 +5,10 @@ export default function loginError() {
 
     msgErro.classList.remove('invisibility')
     msgErro.classList.add('visible')
-    user.classList.add('loginError')
-    password.classList.add('loginError')
 
     user.value = ''
     password.value = ''
+
+    user.style.border = '1px solid #E9B425'
+    password.style.border = '1px solid #E9B425'
 }
